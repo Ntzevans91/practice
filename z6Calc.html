@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width" />
+    </head>
+
+
+<style>
+  html{
+      background-color:black;
+      color:lime;
+      font-size:40px;
+  }
+      
+  table,th{
+    border:0.1px solid;
+    white-space:nowrap;
+    font-size:20px;
+    text-align:center;
+  }
+  
+  textarea{
+    background-color:black;
+    color:lime;
+    white-space:nowrap;
+    width:50px;
+    height:30px;
+    font-size:20px;
+  }
+  
+  #button{
+    border:0.1px solid;
+    height:30px;
+    padding:5px;
+    background-color:black;
+    color:lime;
+  }
+</style>
+<!------------------------------------------------------------------------------------------->
+<script>
+  function z6Calc(){
+    var x= Number(document.getElementById('X').value)
+    var y= Number(document.getElementById('Y').value)
+    var z= Number(document.getElementById('Z').value)
+  
+    var num1= ((2*Number(x))+11)
+  
+    var num2= ((2*Number(z)+Number(y))-5)
+  
+    var num3= ((Number(y)+Number(z))-Number(x))
+  
+    document.getElementById('ansX').innerHTML= num1
+    document.getElementById('ansY').innerHTML= num2
+    document.getElementById('ansZ').innerHTML= num3
+  }
+</script>
+<!------------------------------------------------------------------------------------------->
+<body>
+
+  <table>
+    <th>X</th>
+    <th>Y</th>
+    <th>Z</th>
+    <tr>
+      <td><textarea id="X"></textarea></td>
+      <td><textarea id="Y"></textarea></td>
+      <td><textarea id="Z"></textarea></td>
+    </tr>
+    <tr>
+      <td id="ansX">.</td>
+      <td id="ansY">.</td>
+      <td id="ansZ">.</td>
+    </tr>
+  </table>
+
+  <button id="button" onclick="z6Calc()">Mathmagical</button>
+</body>
+</html>

@@ -1,0 +1,132 @@
+Body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    background-image: url(images/woodgrain1.jpg);
+    margin-right: 60%;
+}
+
+
+
+#c1{column-count: 2;}
+
+#fs1{min-width: 150px; max-width: 190px;}
+
+#fs2{min-width: 130px; max-width: 190px; }
+
+#fs3{min-width: 150px; max-width: 190px; position: relative; top: -20px;}
+
+#fs4{min-width: 190px; max-width: 190px; position: relative; top: -30px;}
+
+#fs5{min-width: 190px; max-width: 190px; position: relative; top: -20px;}
+  .top0{margin: 0px;}
+
+#fs6{min-width: 190px; max-width: 190px;}
+
+#fs7{min-width: 190px; max-width: 190px;}
+  #bevsml{word-spacing: 3px;}
+  .bev0{margin: 0px;}
+
+#fs8{min-width: 190px; max-width: 190px;}
+
+#fs9{min-width: 190px; max-width: 190px;}
+
+
+
+#notes1{
+    min-width: 190px;
+    max-width: 190px;
+    height: 90px;
+    padding: 0px 0px; 
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    resize: both;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 0px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {visibility: visible;}
+
+.img0{width: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+/*
+.b0 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-style: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .b1 {
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: black; 
+    border: 2px solid #04aa20;
+  }
+  
+  .b1:hover {
+    background-color: #04aa20;
+    color: rgb(0, 0, 0);
+    background-image: url(images/done2.avif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .b2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black; 
+    border: 2px solid #a7ba00;
+  }
+  
+  .b2:hover {
+    background-color: #a7ba00;
+    color: rgb(0, 0, 0);
+  }
+
+  .b3 {
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: black; 
+    border: 2px solid #ba4a00;
+  }
+  
+  .b3:hover {
+    background-color: #ba4a00;
+    color: white;
+  }
+*/

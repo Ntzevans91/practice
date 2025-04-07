@@ -1,0 +1,503 @@
+<!DOCTYPE html><html><body>
+<link href="pizzasite.css" type="text/css" rel="stylesheet">
+<head><title>The Pizza Parlor</title></head>
+<main><a id="top">The Pizza Parlor</a></main>
+<audio controls autoplay>
+    <source src="media/kkpizza1.mp3" type="audio/ogg">
+    <source src="media/kkpizza1.mp3" type="audio/mpeg">
+    <source src="media/kkpizza1.mp3" type="audio/mp3">
+  </audio>
+
+<br>
+<br>
+<br>
+
+
+<h1>Pizza Done Right.</h1>
+<fieldset id="fs1"><!--Favorites-->
+    <form>
+
+    <legend>The Favorites 14'</legend>
+
+    <div class="tooltip">
+        <input type="checkbox" id="fav1" class="fav0" name="fav0"/>
+        <label>Personal Pan</label>
+        <span class="tooltiptext"><img src="images/done1.jpg" class="img0"></span>
+    </div>
+
+    <div class="tooltip">
+        <input type="radio" id="fav2" class="fav0" name="fav0"/>
+        <label>Meat Lovers</label>
+        <span class="tooltiptext"><img src="images/done2.avif" class="img0"></span>
+    </div>
+
+    <div class="tooltip">
+        <input type="radio" id="fav3" class="fav0" name="fav0"/>
+        <label>Hawaiian</label>
+        <span class="tooltiptext"><img src="images/done3.jpg" class="img0"></span>
+    </div>
+
+    <div class="tooltip">
+        <input type="radio" id="fav4" class="fav0" name="fav0"/>
+        <label>Pepperoni Party</label>
+        <span class="tooltiptext"><img src="images/done4.jpg" class="img0"></span>
+    </div>
+
+    <div class="tooltip">
+        <input type="radio" id="fav5" class="fav0" name="fav0"/>
+        <label>Supreme</label>
+        <span class="tooltiptext"><img src="images/done5.jpeg" class="img0"></span>
+    </div>
+
+    <div class="tooltip">
+        <input type="radio" id="fav6" class="fav0" name="fav0"/>
+        <label>Cheese Please</label>
+        <span class="tooltiptext"><img src="images/done6.jpg" class="img0"></span>
+    </div>
+    
+    <input type="reset" value="clear">
+    <input type="submit" value="checkout" href="#bottom"></form>
+</fieldset>
+
+<br>
+<br>
+<br>
+
+<fieldset><!--Build Your Own Pizza-->
+    <h1>Build Your Own Pizza</h1>
+    <div id="c1">
+
+
+        <fieldset id="fs2">
+            <legend>Pick Your Size</legend>
+
+            <div>
+                <input type="radio" id="size1" class="size0" name="size0"/>
+                <label>10" Small</label>
+            </div>
+
+            <div>
+                <input type="radio" id="size2" class="size0" name="size0"/>
+                <label>12" Medium</label>
+            </div>
+
+            <div>
+                <input type="radio" id="size3" class="size0" name="size0"/>
+                <label>14" Large</label>
+            </div>
+
+            <div>
+                <input type="radio" id="size4" class="size0" name="size0"/>
+                <label>16" X-Large</label>
+            </div>
+        </fieldset>
+
+        <br>
+        <br>
+        <br>
+
+        <fieldset id="fs3">
+            <legend>Pick Your Crust</legend>
+
+            <div>
+                <input type="radio" id="crust1" class="crust0" name="crust0"/>
+                <label>Cheese Stuffed</label>
+            </div>
+
+            <div>
+                <input type="radio" id="crust2" class="crust0" name="crust0"/>
+                <label>Weenie Stuffed</label>
+            </div>
+
+            <div>
+                <input type="radio" id="crust3" class="crust0" name="crust0"/>
+                <label>Hand-tossed</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="crust4" class="crust0" name="crust0"/>
+                <label>Cheese Spread</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="crust5 " class="crust0" name="crust0"/>
+                <label>Garlic Spread</label>
+            </div>
+
+        </fieldset>
+
+        <br>
+        <br>
+        <br>
+
+        <fieldset id="fs4">
+            <legend>Pick Your Sauce</legend>
+
+            <div>
+                <input type="radio" id="sauce1" class="sauce0" name="sauce0"/>
+                <label>House Red Sauce</label>
+            </div>
+
+            <div>
+                <input type="radio" id="sauce2" class="sauce0" name="sauce0"/>
+                <label>Pesto</label>
+            </div>
+
+            <div>
+                <input type="radio" id="sauce3" class="sauce0" name="sauce0"/>
+                <label>White Sauce</label>
+            </div>
+
+            <div>
+                <input type="radio" id="sauce4" class="sauce0" name="sauce0"/>
+                <label>BBQ sauce</label>
+            </div>
+
+            <div>
+                <input type="radio" id="sauce5" class="sauce0" name="sauce0"/>
+                <label>Za'atar and olive oil</label>
+            </div>
+
+            <div>
+                <input type="radio" id="sauce6" class="sauce0" name="sauce0"/>
+                <label>Vodka cream sauce</label>
+            </div>
+
+            <div>
+                <input type="radio" id="sauce7" class="sauce0" name="sauce0"/>
+                <label>Curry/spicy</label>
+            </div>
+        </fieldset>
+
+        <br>
+
+        <form>
+            <fieldset id="fs5">
+                <legend>Pick Your Toppings</legend>
+                ◐ ◍ ◑ *side of pizza
+                <br>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top1"/>
+                    <input type="radio" id="top" class="top0" name="top1"/>
+                    <input type="radio" id="top" class="top0" name="top1"/>
+                    <label>Pepperoni</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top2"/>
+                    <input type="radio" id="top" class="top0" name="top2"/>
+                    <input type="radio" id="top" class="top0" name="top2"/>
+                    <label>Sausage</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top3"/>
+                    <input type="radio" id="top" class="top0" name="top3"/>
+                    <input type="radio" id="top" class="top0" name="top3"/>
+                    <label>Bacon</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top4"/>
+                    <input type="radio" id="top" class="top0" name="top4"/>
+                    <input type="radio" id="top" class="top0" name="top4"/>
+                    <label>Salami</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top5"/>
+                    <input type="radio" id="top" class="top0" name="top5"/>
+                    <input type="radio" id="top" class="top0" name="top5"/>
+                    <label>Chicken</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top6"/>
+                    <input type="radio" id="top" class="top0" name="top6"/>
+                    <input type="radio" id="top" class="top0" name="top6"/>
+                    <label>Ham</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top7"/>
+                    <input type="radio" id="top" class="top0" name="top7"/>
+                    <input type="radio" id="top" class="top0" name="top7"/>
+                    <label>Beef</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top8"/>
+                    <input type="radio" id="top" class="top0" name="top8"/>
+                    <input type="radio" id="top" class="top0" name="top8"/>
+                    <label>Bell Peppers</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top9"/>
+                    <input type="radio" id="top" class="top0" name="top9"/>
+                    <input type="radio" id="top" class="top0" name="top9"/>
+                    <label>Onions</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top10"/>
+                    <input type="radio" id="top" class="top0" name="top10"/>
+                    <input type="radio" id="top" class="top0" name="top10"/>
+                    <label>Olives</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top11"/>
+                    <input type="radio" id="top" class="top0" name="top11"/>
+                    <input type="radio" id="top" class="top0" name="top11"/>
+                    <label>Pinapple</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top12"/>
+                    <input type="radio" id="top" class="top0" name="top12"/>
+                    <input type="radio" id="top" class="top0" name="top12"/>
+                    <label>Spinach</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top13"/>
+                    <input type="radio" id="top" class="top0" name="top13"/>
+                    <input type="radio" id="top" class="top0" name="top13"/>
+                    <label>Tomatoes</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top14"/>
+                    <input type="radio" id="top" class="top0" name="top14"/>
+                    <input type="radio" id="top" class="top0" name="top14"/>
+                    <label>Mushrooms</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top15"/>
+                    <input type="radio" id="top" class="top0" name="top15"/>
+                    <input type="radio" id="top" class="top0" name="top15"/>
+                    <label>Banana Peppers</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top16"/>
+                    <input type="radio" id="top" class="top0" name="top16"/>
+                    <input type="radio" id="top" class="top0" name="top16"/>
+                    <label>Broccoli</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top17"/>
+                    <input type="radio" id="top" class="top0" name="top17"/>
+                    <input type="radio" id="top" class="top0" name="top17"/>
+                    <label>Jalapenos</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top18"/>
+                    <input type="radio" id="top" class="top0" name="top18"/>
+                    <input type="radio" id="top" class="top0" name="top18"/>
+                    <label>Garlic</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top19"/>
+                    <input type="radio" id="top" class="top0" name="top19"/>
+                    <input type="radio" id="top" class="top0" name="top19"/>
+                    <label>Basil</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top20"/>
+                    <input type="radio" id="top" class="top0" name="top20"/>
+                    <input type="radio" id="top" class="top0" name="top20"/>
+                    <label>Cilantro</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top21"/>
+                    <input type="radio" id="top" class="top0" name="top21"/>
+                    <input type="radio" id="top" class="top0" name="top21"/>
+                    <label>Parsley</label>
+                </div>
+            
+                <div>
+                    <input type="radio" id="top" class="top0" name="top22"/>
+                    <input type="radio" id="top" class="top0" name="top22"/>
+                    <input type="radio" id="top" class="top0" name="top22"/>
+                    <label>Avacado</label>
+                </div>
+                <input type="reset" value="reset">
+            </fieldset>
+        </form>
+
+    </div>
+</fieldset>
+
+<br>
+
+    <iframe id="if1" width="550" height="315" src="https://www.youtube.com/embed/gePvHavlugI?si=L9OXkmYwWXB9WVQG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+
+    <iframe id="if2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16121614.15337026!2d155.55101705815238!3d9.426580349544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x650119b22129ca2b%3A0x8b3e03e8aa09b776!2sMarshall%20Islands!5e0!3m2!1sen!2sus!4v1729631665981!5m2!1sen!2sus" width="550" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<br>
+<br>
+<br>
+<br>
+
+<fieldset id="fs6"><!--Sides-->
+    <legend>Sides</legend>
+<div>
+    <input type="checkbox" id="" class="" name=""/>
+    <label>Cheese Sticks</label>
+</div>
+
+<div>
+    <input type="checkbox" id="" class="" name=""/>
+    <label>Chicken Wings</label>
+</div>
+
+<div>
+    <input type="checkbox" id="" class="" name=""/>
+    <label>Meatballs</label>
+</div>
+
+<div>
+    <input type="checkbox" id="" class="" name=""/>
+    <label>Spaghetti</label>
+</div>
+</fieldset>
+
+<br>
+<br>
+
+<fieldset id="fs7"><!--Beverages-->
+    <legend>Beverages</legend>
+    <div id="bevsml">S M L</div>
+    <div>
+    <input type="radio" id="" class="bev0" name="bev1"/>
+    <input type="radio" id="" class="bev0" name="bev1"/>
+    <input type="radio" id="" class="bev0" name="bev1"/>
+    <label>Coke</label>
+</div>
+
+<div>
+    <input type="radio" id="" class="bev0" name="bev1"/>
+    <input type="radio" id="" class="bev0" name="bev1"/>
+    <input type="radio" id="" class="bev0" name="bev1"/>
+    <label>Pepsi</label>
+</div>
+
+<div>
+    <input type="radio" id="" class="bev0" name="bev1"/>
+    <input type="radio" id="" class="bev0" name="bev1"/>
+    <input type="radio" id="" class="bev0" name="bev1"/>
+    <label>Tap Water</label>
+</div>
+</fieldset>
+
+<br>
+<br>
+
+
+<form>
+    <fieldset id="fs8">
+        <legend>Be Specific</legend>
+        <textarea name="notes" id="notes1"></textarea>
+        <input type="reset" value="clear">
+    </fieldset>
+</form>
+
+<br>
+<br>
+
+<fieldset id="fs9">
+    <legend>PICK-UP</legend>
+<div>
+    <input type="radio" id="" class="pick0" name="pick0"/>
+    <label>Carryout</label>
+</div>
+
+<div>
+    <input type="radio" id="" class="pick0" name="pick0"/>
+    <label>Delivery</label>
+</div>
+</fieldset>
+
+<br>
+
+<form action="/action_page.php" class="sign">
+    <label for="name">Full Name:</label><br>
+    <input type="text" id=" class=" value="John Doe"><br>
+
+    <label for="Address">Address:</label><br>
+    <input type="text" id="Address" value="Address"><br>
+
+    <label for="email">E-mail:</label><br>
+    <input type="text" id="email" value="email"><br>
+
+    <label for="cell">Phone Number:</label><br>
+    <input type="text" id="phone" value="(###)-###-####"><br>
+
+    <input type="submit"><input type="reset" value="reset">
+</form>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<a id="top"></a>
+<a href="#top">Back to top</a>
+
+<footer><a id="bottom"> &#169; Matthew Evans, (AREA)123-matt</a></footer>
+</body></html>
+
+
+
+
+
+
+<!--buttons
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <fieldset id="fs#">
+    <legend>A list of Buttons</legend>
+        <div>
+
+            <input class="b0 b1" text="ex1"><button class="b0 b1">ex1</button></input>
+        <div>
+
+        <div>
+
+            <button class="b0 b2">ex2</button>
+        <div>
+
+        <div>
+        
+            <button class="b0 b3">ex3</button>
+        <div>
+
+    </fieldset>
+-->

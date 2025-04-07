@@ -1,0 +1,41 @@
+<!DOCTYPE html><html>
+    <head><title>Colors.matt</title></head>
+<style>
+html{background-color: black; color: lime;zoom: 300%;}
+.taDefault{resize: none;background-color: darkgray;width: 100px;height: 15px;}
+</style>
+<!------------------------------------------------------------------------------------------>
+<script>
+    var $= function(id){return document.getElementById(id)}
+
+
+    function colorBlend(){
+        let colorOne= ($('ta1').value).toLowerCase()
+        let colorTwo= ($('ta2').value).toLowerCase()
+
+        if(colorOne== 'red' && colorTwo== 'blue' || colorOne== 'blue' && colorTwo== 'red'){$('btn1Ans').innerHTML='they make purple'; $('btn1').style.backgroundColor = "purple"}
+        else if(colorOne== 'red' && colorTwo== 'yellow' || colorOne== 'yellow' && colorTwo== 'red'){$('btn1Ans').innerHTML='they make orange'; $('btn1').style.backgroundColor = "orange"}
+        else if(colorOne== 'blue' && colorTwo== 'yellow' || colorOne== 'yellow' && colorTwo== 'blue'){$('btn1Ans').innerHTML='they make green'; $('btn1').style.backgroundColor = "green"}
+        else{$('btn1Ans').innerHTML='youer bilnd'; $('btn1').style.backgroundColor = "white"}
+
+    }
+
+</script>
+<!------------------------------------------------------------------------------------------->
+<body>
+<textarea id="ta1" class="taDefault"></textarea>
+<textarea id="ta2" class="taDefault"></textarea>
+<br>
+<button id="btn1" class="btnDefault" onclick="colorBlend()"><span id="btn1Ans">Blend</span></button>
+
+
+
+
+</body></html>
+
+
+
+
+
+
+

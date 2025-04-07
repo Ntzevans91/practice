@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>diceRolls</title>
+</head>
+<style>
+    html {
+    background-color:black;
+    color:lime;
+    font-size:300%;
+
+    }
+
+    #btn1{
+    background-color:black;
+    color:white;
+    font-size:30px;
+    border-color:red;
+    }
+
+    #btn2{
+    background-color:black;
+    color:white;
+    font-size:30px;
+    border-color:green;
+    }
+
+    #btn3{
+    background-color:black;
+    color:white;
+    font-size:30px;
+    border-color:gray;
+    }
+
+    table{
+    border:1px solid;
+    }
+</style>
+<!------------------------------------------------------------------------------------------->
+<script>
+    var $ = function( id ) { return document.getElementById( id ); };
+
+
+
+
+    function cpuRoll1(){
+        const choices = ['shield','axe','spear']
+
+        $('cpuRoll1').innerHTML = choices[Math.floor(Math.random() * choices.length)]
+    }
+
+    function cpuRoll2(){
+        const choices = ['shield','axe','spear']
+
+        $('cpuRoll2').innerHTML = choices[Math.floor(Math.random() * choices.length)];
+    }
+
+
+    function battle(){
+    if
+    ($('cpuRoll1').innerHTML== 'shield' && $('cpuRoll2').innerHTML== 'shield')
+    {$('results').innerHTML= 'double KO'}
+    else if
+    ($('cpuRoll1').innerHTML== 'shield' && $('cpuRoll2').innerHTML== 'spear')
+    {$('results').innerHTML= 'Red parries Green and defeats them'}
+    else if
+    ($('cpuRoll1').innerHTML== 'shield' && $('cpuRoll2').innerHTML== 'axe')
+    {$('results').innerHTML= 'Green hooks Red and defeats them'}
+    else if
+    ($('cpuRoll1').innerHTML== 'axe' && $('cpuRoll2').innerHTML== 'axe')
+    {$('results').innerHTML= 'double KO'}
+    else if
+    ($('cpuRoll1').innerHTML== 'axe' && $('cpuRoll2').innerHTML== 'spear')
+    {$('results').innerHTML= 'Green out ranged Red and defeats them'}
+    else if
+    ($('cpuRoll1').innerHTML== 'axe' && $('cpuRoll2').innerHTML== 'shield')
+    {$('results').innerHTML= 'Red hooks green and defeats them'}
+    else if
+    ($('cpuRoll1').innerHTML== 'spear' && $('cpuRoll2').innerHTML== 'spear')
+    {$('results').innerHTML= 'double KO'}
+    else if
+    ($('cpuRoll1').innerHTML== 'spear' && $('cpuRoll2').innerHTML== 'axe')
+    {$('results').innerHTML= 'Red out ranged Green and defeats them'}
+    else if
+    ($('cpuRoll1').innerHTML== 'spear' && $('cpuRoll2').innerHTML== 'shield')
+    {$('results').innerHTML= 'Green parries Red and defeats them'}
+    else{$('results').innerHTML== 'error'}
+    }
+</script>
+<!------------------------------------------------------------------------------------------->
+<body>
+    <button id="btn1" onclick="cpuRoll1(),battle()">
+    <p id="cpuRoll1">red</p>
+    </button>
+
+
+    <button id="btn2" onclick="cpuRoll2(),battle()">
+    <p id="cpuRoll2">green</p>
+    </button>
+
+    <br>
+    <button id="btn3" onclick="cpuRoll1(),cpuRoll2(),battle()">
+    <p id="">Roll</p>
+    </button>
+
+    <h6 id="results">...</h6>
+</body>
+</html>
