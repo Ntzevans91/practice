@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+
+button:hover{
+  border: 5px, solid;
+  border-color: rgba(255, 255, 255, 0);
+}
