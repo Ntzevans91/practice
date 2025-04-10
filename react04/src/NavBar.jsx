@@ -12,6 +12,8 @@ function NavBar(){
             <Link to='/Counter'> Counter </Link>|
             <Link to='/LightTracker'> LightTracker </Link>|
             <Link to='/LightSwitch'> LightSwitch </Link>|
+            <Link to='/WorldClock'> WorldClock </Link>|
+            <Link to='/WeatherApp'> WeatherApp </Link>|
         </nav>
         </>
     )

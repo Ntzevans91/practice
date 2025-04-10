@@ -5,13 +5,14 @@ Body{
     margin-right: 60%;
 }
 
+fieldset{background-color: #00000069;}
 
 
 #c1{column-count: 2;}
 
 #fs1{min-width: 150px; max-width: 190px;}
 
-#fs2{min-width: 130px; max-width: 190px; }
+#fs2{min-width: 130px; max-width: 190px;}
 
 #fs3{min-width: 150px; max-width: 190px; position: relative; top: -20px;}
 

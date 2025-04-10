@@ -12,6 +12,8 @@ import FavColor       from './FavColor.jsx'
 import Counter        from './Counter'
 import LightTracker   from './LightTracker'
 import LightSwitch    from './LightSwitch'
+import WorldClock    from './WorldClock'
+import WeatherApp    from './WeatherApp'
 
 
 
@@ -36,6 +38,8 @@ function App() {
         <Route path='/Counter' element={<Counter/>}/>
         <Route path='/LightTracker' element={<LightTracker/>}/>
         <Route path='/LightSwitch' element={<LightSwitch/>}/>
+        <Route path='/WorldClock' element={<WorldClock/>}/>
+        <Route path='/WeatherApp' element={<WeatherApp/>}/>
       </Routes>
       <Footer/>
     </>
